@@ -1,0 +1,30 @@
+Name : Aashita Verma
+Assignment : Data Portrait 
+
+How to read : 
+
+Blue square : passed out on counch 
+Red square : slept in my bed 
+White circles/ Wheels of torture : Pseudo work time, forcing myself to do any amount of work after realizing I passed out 
+
+- Left to right number on top indicate the hours between 9pm and 4am 
+
+- Top to bottom, double white lines indicate days of the week, there are 7
+
+For example : on monday, (double white line no. 1) I passed out on my couch at 10, woke up around 12 and tried to work, failed and went back to bed at 1. 
+
+(there is also a mouse hover interaction that corresponds to the points of time along the week which helps oreint the user across the canvas, it doens't really have a big functional use but I just wanted to experiment with snapping the cursor to the points and use the dist function which i recently learned about to add a little animation with the mouse)
+
+Concept : 
+
+This past week i've been too tired to work past 9pm but because I keep forcing myself, i end up getting even more tired and sometimes pass out on my couch only to wake up frantically, move to my bed, try to work and end up passing out again on my bed. 
+Eventhough i'm getting more sleep than needed, it's very stressful sleep. 
+
+It's called "sleep is for the week" which is ironic since I am clearly sleeping too much yet somehow not enough. 
+
+
+Reflection : 
+I'm glad i was able to make something interesting with a bad habit of mine. The arrays, loops and if statements made the whole process a lot simpler where I didn't have to calculate almost any coordinates. The method I used for making the blue and red squares was definately not the most efficient but for this assignment I really wanted to just experiment with what I know/remember without following any tutorials. It was actually kind of therapeutic to be honest. 
+In the future, i'd like to go through it again and try a different method!
+
+I was happy Aditi mentioned it looked kind of "woven" as that was the initial aesthetic I was trying to capture especially when it was just the small black squares and white lines. For a previous project I had made a data visualization of the places i've lived in in terms of the relationships and emotions rather than the location and i had used a sewing machine on paper as my medium so for this data portrait I was trying to get a similar look and feel through a digital canvas.

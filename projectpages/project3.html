@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Celestial Clock</title>
+    <link rel="stylesheet" type="text/css" href="/sparkle.css">
+    <title>celestial clock</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
 </head>
-<body>
-    <h1>Celestial Clock</h1> 
-    <br>
-    <iframe src="https://editor.p5js.org/karaokesuperstar/full/_1WquE0rG" width="600" height="600"></iframe>
-    <br>
-    <br>
-    This is a brief description
+<body class="projectpage">
+    <div class="viewproject">
+        <div class="content">
+            <div class="title">
+                <h1>celestial clock</h1> 
+            </div>
+            <div class="sketch-container">
+                <main></main>
+                <script src="/Clock/sketch.js"></script>
+            </div>
+            <div class="description">
+                When you hover over each planet - <br>
+                1. You get the equivalent of Earth's time in terms of that planet's day (same fraction of time that has passed on earth at the current time of the day so if half the day has passed then in Jupiter the time would be 5, as the day is 10 hours long) 
+                <br>2. Planet's total hours in a day
+                <br>3. The rotation speed of the central planet changes according to it's ratio with the earth's speed (Earth's orbital speed : Other planet's orbital speed)
+                <br>4. Color of central planet corresponds to the hovered-on planet
+                <br><br>
+                
+                'People like us who believe in physics know that the distinction between past, present, and future is only a stubbornly persistent illusion' - Albert Einstein    </div>
+    <a href="/index.html" class="circle-button">←</a>
 </body>
 </html>

@@ -1,0 +1,20 @@
+Name : Aashita Verma 
+Assignment : Optical Illusion
+
+Objective : To make the user feel like the shapes are still moving even when the actual motion has stopped
+
+Title : Bake with me! 
+
+How to : Bake these cinnamon roll shapes by moving your cursor left to right. Concentrate on the rolls for a minute before clicking on them to stop the rotation. They might play a trick on you and look like they are still moving!
+
+Reflection : 
+I followed a nonlinear process going into this project by playing with the for loops and seeing what kind of shapes i could use to build an illusion. Having experimented with 3D shapes in my previous assignment, I wanted to try building on what I already know and incorporate loops in this shape. I initially had a cube which had a variable depth with respect to the mouse position but felt like it wasn't very illusion like. The torus shape with the 3d colours looked much more fun. Once I was satisfied with my shape, I messed with the rotation and radius till it felt visually confusing enough. 
+
+New Learnings :
+- Looping 3D shapes
+- Translating the canvas efficiently to keep the elements in the centre in a 3D canvas 
+
+Usage : 
+I feel like this could be an interesting music visualizer if I mapped the radius to audio frequences, it could be fun and trippy display at a music festival. 
+
+Another usage could be to study relative motion in visuals and the importance of negative spaces to show the motion. Here, once the shape is expanded (baked!) and the motion stops, it doesn't feel like it's moving. Where as, if the mouse is towards the left and the shape has enough negative space around it, it feels like it's still in motion. 

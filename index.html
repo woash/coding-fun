@@ -2,14 +2,19 @@
 <html lang="en">
     <head>
     <title> Ash's CC Portfolio </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="sparkle.css">
     </head>
-    <body style="background-image: url('img_girl.jpg');">
-        <div class="topnav">
+    <body>
+        <!-- <div class="topnav">
             <a class="active" href="#home">I can code</a>
             <a href="projectpages/me.html">Who am I?</a>
             <a href="projectpages/fun.html">I draw things</a>
-        </div>
+        </div> -->
+        <div class ="title"> <h1>
+            Ash's CC eBook ♥︎
+        </h1> </div>
         <!-- <header>
             <h1>
                 Ash's CC Portolio
@@ -33,22 +38,64 @@
 
           <div class="project-container">
             <!-- <div class="project" style="background-image: url('./assets/download-2.png');"></div> -->
-          <div class="project"> <img src="./assets/1.png" width="80%" height="60%"> </div>
-          <div class="project"> <img src="./assets/2.png" width="80%" height="60%"> </div>
-          <div class="project"> <img src="./assets/3.png" width="80%" height="60%"> </div>
-          <div class="project"> <img src="./assets/4.png" width="80%" height="60%"> </div>
-          <div class="project"> <img src="./assets/5.png" width="80%" height="60%"> </div>
-          <div class="project"> <img src="./assets/6.png" width="80%" height="60%"> </div>
-          <div class="project"> <img src="./assets/7.png" width="80%" height="60%"> </div>
-            <!-- <div class="project" style="background-image: url('./assets/download-5.png');"></div>
-            <div class="project" style="background-image: url('./assets/download.png');"></div>
-            <div class="project" style="background-image: url('./assets/download-4.png');"></div>
-            <div class="project" style="background-image: url('./assets/download-3.png');"></div>
-            <div class="project" style="background-image: url('./assets/download-7.png');"></div>
-            <div class="project" style="background-image: url('./assets/download-6.png');"></div> -->
+          <div class="project" onclick="location.href='projectpages/project1.html';"> <img src="./assets/download-2.png" width="100%" height="80%">   lost and found </div>
+          <div class="project" onclick="location.href='projectpages/project2.html';"> <img src="./assets/download-5.png" width="100%" height="80%">   shy guy </div>
+          <div class="project" onclick="location.href='projectpages/project5.html';"> <img src="./assets/download-3.png" width="100%" height="80%">   bake with me </div>
+          <div class="project" onclick="location.href='projectpages/project7.html';"> <img src="./assets/download-6.png" width="100%" height="80%">   date night </div>
+          <div class="project" onclick="location.href='projectpages/project6.html';"> <img src="./assets/download-7.png" width="100%" height="80%">   sleep is for the week </div>
+          <div class="project" onclick="location.href='projectpages/project3.html';"> <img src="./assets/download.png" width="100%" height="80%">   celestial clock </div>
+          <div class="project" onclick="location.href='projectpages/project4.html';"> <img src="./assets/download-4.png" width="100%" height="80%">   exquisite corpse </div>
+
          </div>
-          
-          <script src="interaction.js"></script>
-        
+
+         <!-- <a href="/index.html" class="circle-button">←</a> -->
+
+         <div class="nav-bar">
+            <div class="circle-button2" id="modalButton">✧</div> <!-- Opens modal -->
+            <a href="https://www.aashitaverma.com" target="_blank" class="circle-button2">✳︎</a> 
+        </div>
+    
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2>Dear Reader,</h2>
+                <p>I'm Aashita - designer, illustrator and coder in New York with a passion for experimental design, currently exploring the crossroads of design and tech, art and science as a postgraduate student at Parsons School of Design. 
+                    <br> <br>
+                    Welcome to my digital booklet, here you can find my p5.js experiments by clicking on the book pages.
+                    <br>  
+                </p>
+            </div>
+        </div>
+    
+        <script>
+            // Get the modal
+            const modal = document.getElementById("myModal");
+    
+            // Get the button that opens the modal
+            const modalButton = document.getElementById("modalButton");
+    
+            // Get the <span> element that closes the modal
+            const closeModal = document.getElementById("closeModal");
+    
+            // When the user clicks the button, open the modal 
+            modalButton.onclick = function() {
+                modal.style.display = "block";
+            }
+    
+            // When the user clicks on <span> (x), close the modal
+            closeModal.onclick = function() {
+                modal.style.display = "none";
+            }
+    
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+         <!-- <script src="/coding-fun/lost and found/sketch.js"></script>       -->
     </body>
 </html>

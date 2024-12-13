@@ -1,0 +1,15 @@
+Name : Aashita Verma 
+Assignement : Exquisite Corpse
+
+Team Members : Kaori, Olivia
+
+Character Name : Kaolita (a combination of our names lol)
+Character Background : Kaolita is a intergalactic warrior princess who is part alien, part human. She is invincible until she takes off her necklace which is her primary source of power. 
+
+My motivation for this assignment was to have fun, if you click on the sketch, you can play the role of her enemy and shoot lazers at her (which will do nothing since she is the most powerful being in the galaxy). Her pink bubblegum also grows on clicking the mouse. 
+
+I tried to build a cohesive style to illustrate each part of the sketch in. Building my own functions was interesting way to sketch, I plotted each coordinates relative to the base ones (x and y) and could change the position of the whole section in the draw function. Although defining new functions wasn't really necessary in this specific sketch, I think creating functions can be really useful in other sketches, I like how it's almost a way of creating groups. 
+
+I also wanted to try adding images which is something I haven't explored before on psj5, it was a bit frustrating as psj5 on safari has some bugs and doesn't load images easily. Chrome is better for this process but PNGs are still difficult to work with. My background was originally a png but it wouldn't work whereas the hair somehow loaded. 
+
+

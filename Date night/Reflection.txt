@@ -1,0 +1,23 @@
+Name : Aashita Verma
+Assignment : CC Game
+Title : Date Night : A liar's cook book
+
+Illustrations by me 
+Music - https://www.youtube.com/watch?v=QTciqnh3feg
+
+When the cute new guy at work gives you a chance of calling him over to your house for a nice little meal, you jump on the opportunity. Only problem is you don't know how to cook and may have lied about it.. not an issue since all you have to do to impress him is follow a simple recipe book, cooking can't be that hard... right?
+
+Date Night : A liar's cookbook is part 1 of a series of educational games where the lying protagonist must fake it till she makes it. 
+
+How to play : 
+
+Click on start to begin, once you reach the recipe scene, take your time and memorize the instructions that are highlighted, you MUST remember the order of the ingredients and the time to cook them for. If all goes well, you may enjoy your successful date (you sneaky liar), if you fail.... your date might not end so well. 
+
+
+Reflection : 
+
+I had a lot of fun working on this game, the visuals turned out better than I expected since I very quickly sketched them in a day. There are tons of little features I'd like to add but this process can be neverending. 
+I wanted to make the user feel locked in and focussed by utilizing the whole window and this also helped me make the game more accessible on different screen sizes.
+
+There are so many elements that are personal to me - the music (sailor moon theme song since I used to read and watch it all day when i was young, the colour scheme, illustration style, romance element etc) and I'm glad others can enjoy it as much as I do. During the playtest I got many positive reviews and got to see different perceptions - some people felt the music added a nice mysterious vibe. I also realized I needed to change the position of the restart button since some people accidentally clicked it on reaching the final screen before they could read the ending. I changed the cursor image so it was easier to click. After seeing people play it, I was plesently surprised with how many people failed at the first attempt, while working on it I was worried the game was going to be too easy. In terms of technical difficulties, I had some trouble loading the images and making sure they were all proportionate, multiple rounds of trial and error finally fixed it. It was also tough to get the slider value at the right time, it kept taking the value at the start of the scene instead of after the user clicked on it. 
+
